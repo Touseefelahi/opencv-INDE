@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{e8e209a0-ca4b-4911-bfbd-0c10e52fc4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenCL Files">
+      <UniqueIdentifier>{D011BB44-1BF7-4113-997B-A081035B40D8}</UniqueIdentifier>
+      <Extensions>cl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IP camera.cpp">
+      <Filter>OpenCL Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
